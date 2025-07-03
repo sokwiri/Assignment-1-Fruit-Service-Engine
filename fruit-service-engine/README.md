@@ -3,7 +3,7 @@
 ## Introduction
 This is my submission for the Distributed Systems assignment 1. I built the Fruit Service Engine as a simple distributed application where clients can manage fruit prices on a server. The main idea is to let users add, update, delete, and calculate fruit prices, and also get receipts for their transactions. 
 
-## How I have organized the Project 
+## How my project is organized 
 
 Here is an overview of how I structured my project:
 
@@ -39,7 +39,7 @@ fruit-service-engine
 │           └── web.xml
 ├── pom.xml
 └── README.md
-```
+
 
 ## How the Project Works
 
