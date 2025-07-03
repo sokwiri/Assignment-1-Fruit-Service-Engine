@@ -1,12 +1,12 @@
 # Fruit Service Engine
 
-## Overview
-The Fruit Service Engine is a mobile distributed application that allows clients to interact with a server-side fruit price management system. The application supports various operations such as adding, updating, deleting fruit prices, calculating costs based on quantity, and generating receipts for transactions.
+## Introduction
+This is my submission for the Distributed Systems assignment 1. I built the Fruit Service Engine as a simple distributed application where clients can manage fruit prices on a server. The main idea is to let users add, update, delete, and calculate fruit prices, and also get receipts for their transactions. 
 
-## Project Structure
-The project is organized as follows:
+## How I have organized the Project 
 
-```
+Here is an overview of how I structured my project:
+
 fruit-service-engine
 ├── src
 │   ├── main
@@ -41,24 +41,19 @@ fruit-service-engine
 └── README.md
 ```
 
-## Features
-1. **Add Fruit Price**: Clients can add new fruit price entries to the database.
-2. **Update Fruit Price**: Clients can update existing fruit price entries.
-3. **Delete Fruit Price**: Clients can delete fruit price entries from the database.
-4. **Calculate Fruit Cost**: Clients can query the price of a fruit and calculate the total cost based on the quantity.
-5. **Generate Receipt**: Clients can receive a detailed receipt of their transactions, including costs, amounts given, change due, and cashier information.
+## How the Project Works
 
-## Setup Instructions
-1. **Prerequisites**: Ensure you have Java Development Kit (JDK) and Apache Maven installed on your machine.
-2. **Clone the Repository**: Clone this repository to your local machine.
-3. **Build the Project**: Navigate to the project directory and run `mvn clean install` to build the project.
-4. **Start RMI Registry**: Start the RMI registry on port 1099 using the command `rmiregistry 1099` in the terminal.
-5. **Run the Server**: Execute the `FruitComputeEngine` class to start the server.
-6. **Run the Client**: Execute the `FruitClient` class to interact with the server.
+- Add Fruit Price: You can add new fruits and their prices to the system.
+- Update Fruit Price: If a price changes, you can update it easily.
+- Delete Fruit Price: Remove any fruit price entry you don’t need anymore.
+- Calculate Fruit Cost: Enter a fruit and quantity to see the total cost.
+- Generate Receipt: After a transaction, you’ll get a detailed receipt showing the costs, payment, change, and cashier info.
 
-## Usage
-- Use the client application to perform various tasks related to fruit prices.
-- The client will communicate with the server via RMI to execute tasks and retrieve results.
+## Execution of the Project
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+1. Start RMI Registry: Run `rmiregistry 1099` to start the RMI registry.
+2. Run the Server: Start the server by running the `FruitComputeEngine` class.
+3. Run the Client: Start the client by running the `FruitClient` class.
+
+The client application interacts with the server and all the main features (add, update, delete, calculate, and get receipts) are available through the client, and everything works over RMI.
+
