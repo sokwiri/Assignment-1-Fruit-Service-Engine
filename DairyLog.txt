@@ -49,15 +49,7 @@ Fruit Service Engine Development Log
 [x] Tested endpoint with Postman
 
 ===========================
-5. Frontend Development
-===========================
-[x] Created index.html with form to support all 5 tasks
-[x] Wrote fetch API POST to FruitServiceServlet
-[x] Displayed results inside HTML output container
-[x] Tested each function from browser
-
-===========================
-6. Final Stage: Testing 
+5. Final Stage: Testing 
 ===========================
 [x] Ran end-to-end test: Client -> Servlet -> RMI -> DB -> RMI -> Client (I did this with 2 computers)
 
