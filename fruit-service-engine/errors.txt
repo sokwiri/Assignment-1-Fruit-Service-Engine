@@ -1,3 +1,0 @@
-Errors
-1. Unable to print a receipt -- MAJOR
-2. Proper validation for updating a fruit that doesn't exist
