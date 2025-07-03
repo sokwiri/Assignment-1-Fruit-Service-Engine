@@ -1,4 +1,4 @@
-# Fruit Service Engine
+# Fruit Service Engine Project
 
 ## Introduction
 This is my submission for the Distributed Systems assignment 1 Fruit-Service-Engine. It as a simple distributed application where clients can manage fruit prices on a server. 
