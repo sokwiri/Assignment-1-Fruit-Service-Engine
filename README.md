@@ -1,5 +1,3 @@
-# Name: Stephen Okwiri | # Admission No: 224160
-
 # Fruit Service Engine
 
 ## Introduction
