@@ -62,10 +62,10 @@ The client application interacts with the server and all the main features (add,
 
 ## References
 
-1. Oracle. (n.d.). [Java™ Remote Method Invocation (RMI)](https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/index.html). Oracle Documentation.
-2. Coulouris, G., Dollimore, J., Kindberg, T., & Blair, G. (2011). Distributed Systems: Concepts and Design (5th Edition). Addison-Wesley.
-3. Apache Maven Project. (n.d.). [Maven: The Complete Reference](https://maven.apache.org/guides/index.html).
-4. Oracle. (n.d.). [Java SE Documentation](https://docs.oracle.com/javase/8/docs/).
-5. Google. (n.d.). Gson User Guide. Retrieved from https://github.com/google/gson   
-6. GitHub Copilot. (n.d.). Context-aware code suggestions. GitHub.
-7. ChatGPT. (2025). Assisted code generation and project guidance. OpenAI.
+1. Oracle. (n.d.). Java™ Remote Method Invocation (RMI). Oracle. https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/index.html
+2. Coulouris, G., Dollimore, J., Kindberg, T., & Blair, G. (2011). Distributed systems: Concepts and design (5th ed.). Addison-Wesley.
+3. Apache Maven Project. (n.d.). Maven: The complete reference. https://maven.apache.org/guides/index.html
+4. Oracle. (n.d.). Java SE documentation. https://docs.oracle.com/javase/8/docs/
+5. Google. (n.d.). Gson user guide. GitHub. https://github.com/google/gson
+6. GitHub. (n.d.). GitHub Copilot: Context-aware code suggestions. https://github.com/features/copilot
+7. OpenAI. (2025). ChatGPT: Assisted code generation and project guidance. https://openai.com/chatgpt
