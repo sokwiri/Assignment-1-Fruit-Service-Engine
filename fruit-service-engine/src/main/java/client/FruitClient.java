@@ -13,6 +13,11 @@ import server.interfaces.Compute;
 public class FruitClient {
     private Compute computeEngine;
 
+    /**
+     * Constructor: Connects to the RMI registry and looks up the remote Compute engine.
+     * Handles exceptions if the server is not available or not bound.
+     */
+
     public FruitClient(String host, int port) {
         try {
             Registry registry = LocateRegistry.getRegistry(host, port);
@@ -28,6 +33,11 @@ public class FruitClient {
             e.printStackTrace();
         }
     }
+
+    /**
+     * Methods to interact with the remote Compute engine.
+     * Each method creates a task and registers it with the Compute engine.
+     */
 
     public void addFruitPrice(String fruitName, double price) {
         FruitPrice fruitPrice = new FruitPrice(fruitName, price);
