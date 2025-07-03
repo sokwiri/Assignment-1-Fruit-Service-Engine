@@ -57,3 +57,12 @@ fruit-service-engine
 
 The client application interacts with the server and all the main features (add, update, delete, calculate, and get receipts) are available through the client, and everything works over RMI.
 
+## References
+
+1. Oracle. (n.d.). Java™ Remote Method Invocation (RMI). Oracle. https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/index.html
+2. Coulouris, G., Dollimore, J., Kindberg, T., & Blair, G. (2011). Distributed systems: Concepts and design (5th ed.). Addison-Wesley.
+3. Apache Maven Project. (n.d.). Maven: The complete reference. https://maven.apache.org/guides/index.html
+4. Oracle. (n.d.). Java SE documentation. https://docs.oracle.com/javase/8/docs/
+5. Google. (n.d.). Gson user guide. GitHub. https://github.com/google/gson
+6. GitHub. (n.d.). GitHub Copilot: Context-aware code suggestions. https://github.com/features/copilot
+7. OpenAI. (2025). ChatGPT: Assisted code generation and project guidance. https://openai.com/chatgpt
