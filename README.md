@@ -1,12 +1,10 @@
-# Name: Stephen Okwiri
-# Admission: 224160
-============================
+# Name: Stephen Okwiri | # Admission No: 224160
 
 # Fruit Service Engine
 
 ## Introduction
-This is my submission for the Distributed Systems assignment 1 fruit-service-engine. It as a simple distributed application where clients can manage fruit prices on a server. 
-The main idea is to let users add, update, delete, and calculate fruit prices, and also get receipts for their transactions. 
+This is my submission for the Distributed Systems assignment 1 Fruit-Service-Engine. It as a simple distributed application where clients can manage fruit prices on a server. 
+The main idea is to let users(clients) add, update, delete, and calculate fruit prices, and also get receipts for their transactions. 
 
 ## How my project is organized 
 
