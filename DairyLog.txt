@@ -1,0 +1,76 @@
+Name: Stephen Okwiri
+Admission: 224160
+
+Fruit Service Engine Development Log
+
+===========================
+1. Initial Setup
+===========================
+[x] Created base project folders: server/, client/, shared/, web/
+[x] Initialized Git repo
+[x] Installed and configured Apache Tomcat on localhost
+[x] Launched RMI registry using terminal from project root
+
+===========================
+2. RMI Development
+===========================
+[x] Created shared interface Task.java and FruitComputeTask.java
+[x] Implemented RMI server:
+    - FruitComputeEngine.java
+    - Bound it to "FruitService" at localhost:1099
+[x] Implemented task classes:
+    - AddFruitPrice.java
+    - UpdateFruitPrice.java
+    - DeleteFruitPrice.java
+    - CalFruitCost.java
+    - CalculateCost.java
+[x] Created registry client proxy:
+    - FruitComputeTaskRegistry.java
+[x] Successfully tested tasks with standalone client
+
+===========================
+3. Database Integration
+===========================
+[x]Designed MySQL schema:
+    - fruit_prices(id, name, price)
+    - receipts(id, fruit, quantity, cost, amount_given, change_due, cashier)
+[x] Updated task classes to connect via JDBC
+[x] Added basic DAO methods to encapsulate SQL queries
+[x] Tested insert/update/delete operations
+
+===========================
+4. Servlet Integration
+===========================
+[x] Developed FruitServiceServlet.java
+    - Parsed JSON from POST request
+    - Routed task to RMI server
+    - Returned text responses
+[x] Deployed servlet to Tomcat
+[x] Tested endpoint with Postman
+
+===========================
+5. Frontend Development
+===========================
+[x] Created index.html with form to support all 5 tasks
+[x] Wrote fetch API POST to FruitServiceServlet
+[x] Displayed results inside HTML output container
+[x] Tested each function from browser
+
+===========================
+6. Final Stage: Testing 
+===========================
+[x] Ran end-to-end test: Client -> Servlet -> RMI -> DB -> RMI -> Client (I did this with 2 computers)
+
+## All 5 tasks (add, update, delete, calculate, receipt) tested and operational.
+
+
+
+## References
+1. Oracle. (n.d.). [Java™ Remote Method Invocation (RMI)](https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/index.html). Oracle Documentation.
+2. Coulouris, G., Dollimore, J., Kindberg, T., & Blair, G. (2011). Distributed Systems: Concepts and Design (5th Edition). Addison-Wesley.
+3. Apache Maven Project. (n.d.). [Maven: The Complete Reference](https://maven.apache.org/guides/index.html).
+4. Oracle. (n.d.). [Java SE Documentation](https://docs.oracle.com/javase/8/docs/).
+5. Google. (n.d.). Gson User Guide. Retrieved from https://github.com/google/gson  
+6. GitHub Copilot. (n.d.). Context-aware code suggestions. GitHub.
+7. ChatGPT. (2025). Assisted code generation and project guidance. OpenAI.
+
