@@ -14,13 +14,6 @@ Fruit Service Engine Development Diary Logs
 [x] Created shared interface Task.java and FruitComputeTask.java
 [x] Implemented RMI server:
     - FruitComputeEngine.java
-        public String execute(Task task) throws RemoteException {
-            System.out.println("[Server] Received task: " + task.getClass().getSimpleName());
-            String result = task.execute();
-            System.out.println("[Server] Task executed. Result: " + result);
-            return result;
-        }
-
     - Bound it to "FruitService" at localhost:1099
 [x] Implemented task classes:
     - AddFruitPrice.java
@@ -50,7 +43,7 @@ Fruit Service Engine Development Diary Logs
     - Routed task to RMI server
     - Returned text responses
 [x] Deployed servlet to Tomcat
-[x] Tested endpoint with Postman
+[x] Tested endpoint 
 
 ===========================
 5. Final Stage: Testing 
